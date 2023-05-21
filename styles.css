@@ -1,0 +1,65 @@
+.picc{
+    border-radius: 50% ;
+}
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #D16BA5, #86A8E7, #5FFBF1);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .fontchange{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
+  .disp{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 90vh;
+    /* width: 50vh; */
+  }
+  .alln{
+    align-self: flex-end;
+  }
+  .coll{
+    background-color: rgb(216, 232, 240);
+    border-radius:10px ;
+  }
+  .idk{
+    color: grey;
+    font-family: 'Raleway', sans-serif;
+  }
+  .colll{
+    color: red;
+  }
+.ouu{
+    font-family: 'Manrope', sans-serif;
+}
+.borr{
+    border-radius: 20px;
+}
+.ouch{
+    font-family: 'Cinzel', serif;
+}
+.cenn{
+    text-align: center;
+}
+.aye{
+  font-family: 'Merriweather', serif;
+}
